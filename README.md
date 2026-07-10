@@ -73,7 +73,7 @@ Función principal, orquesta todo el proceso:
    - Descripción del incidente, ya limpia de HTML.
 5. Vuelca todo en un `DataFrame` de pandas y lo exporta a Excel en:
    ```
-   G:\Unidades compartidas\Área de Tecnología\Respaldo_Ticket\reporte_detallado_incidentes.xlsx
+  directorio\reporte_detallado_incidentes.xlsx
    ```
 
 ### 5. Punto de entrada
