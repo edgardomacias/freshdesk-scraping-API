@@ -93,6 +93,6 @@ La consola mostrará el progreso: carga de catálogos, páginas de tickets desca
 
 ## Notas y limitaciones
 
-- El script está acoplado al dominio `ummia.freshdesk.com` y a una ruta de red compartida (`G:\...`) como destino del reporte; para reutilizarlo en otra cuenta u organización hay que ajustar `DOMAIN`, `BASE_URL` y `directorio_destino`.
+- El script está acoplado al dominio `tudominio.freshdesk.com` y a una ruta de red compartida (`G:\...`) como destino del reporte; para reutilizarlo en otra cuenta u organización hay que ajustar `DOMAIN`, `BASE_URL` y `directorio_destino`.
 - Con `INCLUIR_TIEMPO_SEGUIMIENTO = True` el proceso es notablemente más lento, ya que se hace una llamada adicional a la API por cada ticket.
 - El límite de `MAX_PAGINAS = 300` junto a `PER_PAGE = 100` cubre hasta 30.000 tickets; cuentas con más tickets requerirán aumentar este valor.
