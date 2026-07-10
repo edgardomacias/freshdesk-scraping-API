@@ -181,7 +181,7 @@ def descargar_y_limpiar_tickets():
         })
 
     df = pd.DataFrame(datos_limpios)
-    directorio_destino = r"G:\Unidades compartidas\Área de Tecnología\Respaldo_Ticket"
+    directorio_destino = r"directorio\Respaldo_Ticket"
     os.makedirs(directorio_destino, exist_ok=True)
     nombre_archivo = os.path.join(directorio_destino, "reporte_detallado_incidentes.xlsx")
     df.to_excel(nombre_archivo, index=False)
