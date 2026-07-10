@@ -37,7 +37,7 @@ Otros parámetros están definidos como constantes al inicio de [exportar_ticket
 
 | Constante | Descripción |
 |---|---|
-| `DOMAIN` / `BASE_URL` | Subdominio de Freshdesk (`ummia.freshdesk.com`) |
+| `DOMAIN` / `BASE_URL` | Subdominio de Freshdesk (`tudomino.freshdesk.com`) |
 | `PER_PAGE` | Tickets por página (máx. 100 según la API) |
 | `MAX_PAGINAS` | Límite de páginas a recorrer (300 → hasta 30.000 tickets) |
 | `PAUSA_SEGUNDOS` | Pausa entre requests para no exceder el rate limit |
